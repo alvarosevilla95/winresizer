@@ -116,7 +116,7 @@ let s:codeList = {
         \  'mode' : g:winresizer_keycode_mode,
         \}
 
-exe 'nnoremap ' . g:winresizer_start_key .' :WinResizerStartResize<CR>'
+" exe 'nnoremap ' . g:winresizer_start_key .' :WinResizerStartResize<CR>'
 
 com! WinResizerStartResize call s:startResize(s:tuiResizeCommands())
 com! WinResizerStartMove call s:startResize(s:moveCommands())
